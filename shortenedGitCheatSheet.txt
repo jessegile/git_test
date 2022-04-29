@@ -1,0 +1,23 @@
+COMMANDS RELATED TO A REMOTE REPOSITORY:
+
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+
+git push or git push origin main (Both accomplish the same goal in this context)
+
+COMMANDS RELATED TO THE WORKFLOW:
+
+git add .
+
+git commit -m "A message describing what you have done to make this snapshot different"
+
+COMMANDS RELATED TO CHECKING STATUS OR LOG HISTORY:
+
+git status
+git log
+
+THE BASIC GIT SYNTAX IS: program | action | destination.
+
+FOR EXAMPLE,
+git add . is read as git | add | ., where the period represents everything in the current directory;
+git commit -m "message" is read as git | commit -m | "message"; and
+git status is read as git | status | (no destination).
